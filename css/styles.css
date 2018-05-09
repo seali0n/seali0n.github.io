@@ -94,6 +94,13 @@ body {
     padding: 10px 20px;
 }
 
+.thumbnail-img{
+    max-height: 80px;
+    display: inline;
+    margin: 2px ;
+    padding: auto;    
+}
+
 /* change sizing for pictures */
 .img-responsive:not(.me){
     max-width: 30%;
@@ -183,11 +190,21 @@ body {
 }
 
 .me {
-    max-width: 40%;
+    max-width: 50%;
     display: inline;
     margin: 2px ;
     padding: auto;  
 } 
+
+@media only screen and (max-width: 768px){
+    .me {
+        max-width: 100%;
+        display: inline;
+        margin: 2px ;
+        padding: auto; 
+    }
+} 
+}
 
 /* For titles in project screens */
 #name{
