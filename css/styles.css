@@ -94,10 +94,10 @@ body {
     padding: 10px 20px;
 }
 
-.thumbnail-img{
-    max-height: 80px;
+.thumbnail img{
+    max-height: 100px;
     display: inline;
-    margin: 2px ;
+    margin: 20px ;
     padding: auto;    
 }
 
@@ -138,7 +138,7 @@ body {
 
     text-align: center;  /* align the inline(-block) elements horizontally */
 }
-.modal:before{
+.modal:before {
     content: ' ';
     display: inline-block;
     vertical-align: middle; /* vertical alignment of the inline element */
@@ -153,10 +153,9 @@ body {
     max-width: 60%;
     display: inline-block;
     vertical-align: middle; /* vertical alignment of the inline element */
-
     padding: 5px;
-
 }
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
@@ -204,10 +203,10 @@ body {
         padding: auto; 
     }
 } 
-}
+
 
 /* For titles in project screens */
-#name{
+#name {
     color: #388A8A;
     font-size: 50;
     font-weight: 700;
