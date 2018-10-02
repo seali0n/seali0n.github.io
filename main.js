@@ -14,13 +14,13 @@ $(document).ready(function() {
 		}
 	});
 	
-	//Check to see if the window is top if not then display button
+	//Checks if window is at top if not display button
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 200) {
 			$('.scrollToTop').css("visibility", "visible");
-			$('.scrollToTop').fadeIn(200);
+			$('.scrollToTop').fadeIn(300);
 		} else {
-			$('.scrollToTop').fadeOut(0);
+			$('.scrollToTop').fadeOut(300);
 		}
 	});
 
@@ -30,6 +30,7 @@ $(document).ready(function() {
 		return false;
 	});
 	
+	//lightbox function
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
 				event.preventDefault();
 				$(this).ekkoLightbox();
