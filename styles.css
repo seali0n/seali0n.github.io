@@ -173,7 +173,7 @@ button.scroll:after{
 
 /*//////////NAV BAR//////////*/
 .navbar .navbar-brand img{
-  height: 5vh;
+  height: 10vh;
     
 }
 .navbar {
@@ -186,12 +186,12 @@ button.scroll:after{
 
 @media screen and (min-width: 768px) {
     .navbar {
-        padding: 1.5em 5em;
+        padding: 1.5em 5em ;
     }
 }
 
 .overlay {
-    margin-bottom: -8.25em; 
+    margin-bottom: -8.75em; 
     z-index: 1;
 }
 
