@@ -199,6 +199,7 @@ ul li a {
 	letter-spacing: .05em;
 	text-decoration: none;
     font-weight: 600;
+    margin: 0em .5em;
 }
 
 /*underline hover css appears on screens >= 768px */
@@ -231,15 +232,24 @@ footer {
 	}
 
 .icon {
-    margin: 0em 1vw;
+    margin: 0em 2vw;
 }
 
 .icon img{
     width: 2em;
 }
-/*HOME PAGE*/
-#intro {
+/*//////////HOME PAGE//////////*/
+.intro {
     font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1.25em;
+    padding-bottom: .5em;
+}
+
+ h1.intro span {
+    font-style: normal;
+    font-weight: 600;
+    color: rgba(0,87,255,1);
 }
 
 /*//////////PROJECTS SECTION//////////*/
@@ -301,6 +311,11 @@ footer {
 
 .about p {
     padding-bottom: .5em;
+}
+
+p#title span{
+    color: rgba(0,87,255,1);
+ 
 }
 
 #me {
