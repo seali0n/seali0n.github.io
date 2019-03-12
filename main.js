@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 	$('a[href^="#"]').click(function(e) {
 		e.preventDefault();
@@ -32,8 +30,8 @@ $(document).ready(function() {
 	
 	//lightbox function
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-				event.preventDefault();
-				$(this).ekkoLightbox();
+        event.preventDefault();
+        $(this).ekkoLightbox();
 	});
 
 });

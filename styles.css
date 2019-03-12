@@ -232,7 +232,7 @@ footer {
 	}
 
 .icon {
-    margin: 0em 2vw;
+    margin: 0em 1vw;
 }
 
 .icon img{
@@ -331,6 +331,11 @@ p#title span{
 	background-color: rgba(36, 189, 180, .33);
 }
 
+.pic-bg {
+    background-color: rgba(100, 173, 189, 1);
+    padding: 50px;
+}
+
 .title {
 	font-size: 2rem;
 	font-weight: bold;
@@ -349,10 +354,6 @@ p#title span{
 	color: #000;
 	font-size: .90rem;
 	font-style: italic;
-}
-
-.test {
-    background-color: antiquewhite;
 }
 
 .header {
