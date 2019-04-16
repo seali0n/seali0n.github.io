@@ -21,16 +21,18 @@
 		<title>About Celine</title>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="styles.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway: 400,600" rel="stylesheet">
+        <link rel="icon" href="img/sun.png" type="image/png" sizes="32x32">
 	</head>
 
 	<body>
 		<!--NAVBAR-->
 		<nav class="navbar navbar-expand-sm navbar-light transparent">
 			<a class="navbar-brand" href="index.html">
-                <img src="img/logo.svg" class="d-inline-block align-top" alt="Home">
+                Celine Wong
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -44,7 +46,7 @@
 						<a class="nav-link" href="about.html">ABOUT</a>
 					</li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://drive.google.com/file/d/13BA8OzT2f-CfwATAd20IJtThSKf8T3pR/view" target="_blank">RÉSUMÉ</a>
+                        <a class="nav-link" href="https://drive.google.com/file/d/1C_ZY6uh_oVj1ot8jjmqH3ivUJn8DsIbP/view" target="_blank">RÉSUMÉ</a>
                     </li>
 				</ul>
 			</div>
@@ -53,50 +55,43 @@
 		<!--INTRO-->
 		<div class="container-fluid about">
             <div class="row">
-                
-                <div class="col-12 col-md-4 offset-md-2">
-                    <h1 id="title">Hello!</h1>
+                <div class="col-12 col-md-4 text-center order-md-10">
+                    <img src="img/me.svg" id="me">
+                </div>
+                <div class="col-12 col-sm-8 offset-sm-2 col-md-4 offset-md-2">
+                    <h1 id="title"><span>Hello!</span></h1>
                     <p id="title"> Nice to meet you, I’m <span>Celine</span>.</p>
                     <p>
                         I’m a fifth year at UC San Diego studying Cognitive Science, specializing in HCI. My passions include graphic and visual design.
                     </p>
                     <p>
-                        I remember having an interest in design since a young age. My very first exposure was a Wordpress website created for Club Penguin (it still exists FYI).
+                        I had an interest in design since a young age. My very first exposure was a designing Wordpress website created for Club Penguin (it still exists FYI).
                     </p>  
                     <p>
-                        I have a growing interest in accessibility and strive to better improve my designs to be more inclusive for everyone. 
+                        I have a growing interest in accessibility and strive to better improve my designs to be more inclusive for everyone. I have an interest in visual design and hope to create accessible designs that are inclusive for people with visual disabilities.
                     </p>
                     <p>
-                        Outside of design, I have a special love for cats and tea, the two things that bring me joy. If I’m not working, I’m usually on Youtube watching Mejoo and her cats or cafe ASMR or playing Minesweeper. 
+                        Outside of design, I have a special love for cats and tea, two of the many things that bring me joy. If I’m not working, I’m usually on Youtube watching Mejoo and her cats or cafe ASMR or playing Minesweeper. 
                     </p>
                     <p>
-                        If you would like to talk, please feel free to contact me. I’m only a click away! :) 
+                        If you would like to talk, please feel free to contact me. I’m only a click away! 🌞 
                     </p>
                     <p><a href="mailto:ckw016+portfolio@ucsd.edu">EMAIL</a></p>
                     
                     <p><a href="https://linkedin.com/in/celinekwong" target="_blank">LINKEDIN</a>
                     </p>
                 </div>
-                <div class="col-12 col-md align-self-center text-center">
-                    <img src="img/me.svg" id="me">
-                </div>
+                
                 
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4 offset-md-3">
-                    
-
-                </div>
-            </div>
+           
 		</div>
+        
 		<!--FOOTER-->
         <footer class="top-buffer">
-		<div class="container-fluid">
-            <div class="row text-center">
-				<div class="col-12">
-					<p style="font-size: 14px">LET'S CONNECT!</p>
-				</div>
-				<div class="col-6 offset-3">
+		  <div class="container-fluid">
+            <div class="row justify-content-center">
+				<div class="col-10 col-md-5 text-center text-md-left">
 					<a href="https://www.linkedin.com/in/celinekwong/" class="icon" target="_blank">
                         <img src="img/linkedin_btn.svg"  alt="LinkedIn">
                     </a>
@@ -104,15 +99,17 @@
                     <a href="mailto:ckw016+portfolio@ucsd.edu" class="icon">
                         <img src="img/email_btn.svg" alt="Email">
                     </a>
-				</div>	
+				</div>
+                
+                <div class="col-10 col-md-5 text-center text-md-right">
+                    <p>MADE WITH 🍵 BY CELINE</p>
+                </div>
 			</div>
-
-			<p class="text-center">
-                © Celine Wong 2019
-            </p>
+            
 			<button type="button" class="btn scrollToTop scroll"></button>
-		</div>	
+		  </div>	
         </footer>
+        
 		<!--JQUERY-->
 		<script
 		src="https://code.jquery.com/jquery-3.3.1.min.js"

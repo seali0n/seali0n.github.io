@@ -10,6 +10,12 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   font-size-adjust: 0.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: .025em;
+}
+
 #page {
   font-size: 1em;
   /* equivalent to 16px */
@@ -27,10 +33,10 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 h1 {
-  font-size: 2em;
-  /* 2x body copy size = 32px */
-  line-height: 1.25;
-  /* 45px / 36px */
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+    /* 45px / 36px */
 }
 
 @media (min-width: 43.75em) {
@@ -51,10 +57,10 @@ h1 {
 }
 
 h2 {
-  font-size: 1.625em;
-  /* 1.625x body copy size = 26px */
-  line-height: 1.15384615;
-  /* 30px / 26px */
+    font-size: 1.625em;
+    /* 1.625x body copy size = 26px */
+    line-height: 1.15384615;
+    /* 30px / 26px */
 }
 
 @media (min-width: 43.75em) {
@@ -74,10 +80,10 @@ h2 {
 }
 
 h3 {
-  font-size: 1.375em;
-  /* 1.375x body copy size = 22px */
-  line-height: 1.13636364;
-  /* 25px / 22px */
+    font-size: 1.375em;
+    /* 1.375x body copy size = 22px */
+    line-height: 1.13636364;
+    /* 25px / 22px */
 }
 
 @media (min-width: 43.75em) {
@@ -97,9 +103,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.125em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1.11111111;
+    font-size: 1.125em;
+    /* 1.125x body copy size = 18px */
+    line-height: 1.11111111;
 }
 
 @media (min-width: 43.75em) {
@@ -172,12 +178,22 @@ button.scroll:after{
 }
 
 /*//////////NAV BAR//////////*/
-.navbar .navbar-brand img{
+/*.navbar .navbar-brand img{
   height: 10vh;
     
+}*/
+a.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
+
 .navbar {
     padding: 1.5em
+}
+
+/*Change navbar logo color*/
+.navbar-light .navbar-brand{
+    color: #1D1E1E;
 }
 
 @media screen and (min-width: 768px) {
@@ -208,8 +224,8 @@ ul li a {
 		content: '';
 		display: block;
 		width: 0;
-		height: 2px;
-		background: rgba(255, 196, 45, 1);
+		height: .25em;
+		background: rgba(247, 164, 6, 1);
 		/* prefixes for chrome, safari, firefox */
 		-webkit-transition: width .2s linear;
 		-moz-transition: width .2s linear;
@@ -224,23 +240,25 @@ ul li a {
 /*//////////FOOTER//////////*/
 footer {
 	padding: 20px 20px;
-	background-color: rgba(117, 143, 187, 1);
+	background-color: rgba(20, 54, 66, 1);
+    font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	color: white;
 	list-style-type: none;
-    letter-spacing: .1em;
+    letter-spacing: .025em;
 	}
 
 .icon {
-    margin: 0em 1vw;
+    margin: 0em .5vw;
 }
 
 .icon img{
     width: 2em;
 }
+
 /*//////////HOME PAGE//////////*/
 .intro {
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.05em;
     line-height: 1.25em;
     padding-bottom: .5em;
@@ -248,8 +266,8 @@ footer {
 
  h1.intro span {
     font-style: normal;
-    font-weight: 600;
-    color: rgba(0,87,255,1);
+    font-weight: bold;
+    color: rgba(247,164, 6,1);
 }
 
 /*//////////PROJECTS SECTION//////////*/
@@ -299,6 +317,27 @@ footer {
 	} 
 }
 
+.project {
+    padding-left: 1vw;
+    color: rgba(20, 54, 66, 1);
+}
+
+p.project{
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .05vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-small {
+        padding-left: 1vw;
+        color: rgba(20, 54, 66, 1);
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+    
+
 /*//////////ABOUT PAGE//////////*/
 .about {
     padding-top: 7em;
@@ -313,8 +352,8 @@ footer {
     padding-bottom: .5em;
 }
 
-p#title span{
-    color: rgba(0,87,255,1);
+#title span{
+    color: rgba(139,64,59,1);
  
 }
 
