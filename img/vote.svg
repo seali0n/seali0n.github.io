@@ -8,8 +8,8 @@
 </style>
 <g>
 	
-		<image style="overflow:visible;" width="5600" height="2382" xlink:href="../../portfolio v3/img/vote_banner.png"  transform="matrix(0.1071 0 0 0.1259 25.335 4.51)">
+		<image style="overflow:visible;" width="5600" height="2382" xlink:href="vote_banner.png"  transform="matrix(0.1071 0 0 0.1259 25.85 4.5)">
 	</image>
+	<rect x="5.4" y="26" class="st0" width="600" height="300"/>
 </g>
-<rect x="5.8" y="26" class="st0" width="600" height="300"/>
 </svg>
