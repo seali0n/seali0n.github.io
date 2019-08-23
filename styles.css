@@ -1,9 +1,25 @@
 /*//////////GENERAL//////////*/
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 1em;
-	line-height: 1.6em;
+	font-size: 1.15em;
+	line-height: 1.9em;
     color: #1D1E1E;
+}
+
+ol, ul {
+    list-style-position: outside;
+    padding-left: 0;
+}
+
+
+ ul li {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.img-tea {
+    width: 25%;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -324,7 +340,7 @@ footer {
 
 p.project{
     text-transform: uppercase;
-    font-size: .75em;
+    font-size: .7em;
     letter-spacing: .05vw;
 }
 
@@ -353,7 +369,7 @@ p.project{
 }
 
 #title span{
-    color: rgba(139,64,59,1);
+    color: rgba(20,54,66,1);
  
 }
 
@@ -376,7 +392,6 @@ p.project{
 }
 
 .title {
-	font-size: 2rem;
 	font-weight: bold;
 	letter-spacing: .05em;
 }
@@ -396,8 +411,9 @@ p.project{
 }
 
 .header {
-    letter-spacing: .05em;
-    font-weight: 600;
+    letter-spacing: .025em;
+    font-weight: bold;
+    padding-top: 4em;
 }
 
 row p{

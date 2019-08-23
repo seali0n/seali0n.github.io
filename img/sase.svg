@@ -11,7 +11,7 @@
 	.st4{opacity:0.24;}
 	.st5{fill:url(#SVGID_2_);}
 </style>
-<pattern  y="330.52" width="678.98" height="453.11" patternUnits="userSpaceOnUse" id="New_Pattern_2" viewBox="0 -470.6 678.98 453.11" style="overflow:visible;">
+<pattern  x="178.08" y="77.76" width="678.98" height="453.11" patternUnits="userSpaceOnUse" id="New_Pattern_5" viewBox="0 -470.6 678.98 453.11" style="overflow:visible;">
 	<g>
 		<rect y="-470.6" class="st0" width="678.98" height="453.11"/>
 		<g>
@@ -419,16 +419,16 @@
 	</g>
 </pattern>
 <g>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="29.335" y1="155.01" x2="711.2631" y2="155.01">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="29.3333" y1="156.2615" x2="711.2615" y2="156.2615">
 		<stop  offset="0.4736" style="stop-color:#8DC0E7"/>
 		<stop  offset="1" style="stop-color:#8DC0E7;stop-opacity:0.6"/>
 	</linearGradient>
-	<rect x="25.33" y="5.01" class="st2" width="600" height="300"/>
-	<rect x="5.83" y="25.51" class="st3" width="600" height="300"/>
+	<rect x="25.33" y="6.26" class="st2" width="600" height="300"/>
+	<rect x="5.83" y="26.76" class="st3" width="600" height="300"/>
 	<g class="st4">
-		<pattern  id="SVGID_2_" xlink:href="#New_Pattern_2" patternTransform="matrix(1 0 0 1 -152 -448.52)"  class="st4">
+		<pattern  id="SVGID_2_" xlink:href="#New_Pattern_5" patternTransform="matrix(1 0 0 1 -330 -195)"  class="st4">
 		</pattern>
-		<rect x="26.33" y="5.01" class="st5" width="599" height="300"/>
+		<rect x="26.33" y="6.26" class="st5" width="599" height="300"/>
 	</g>
 	
 		<image style="overflow:visible;" width="1500" height="1500" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAXcCAYAAAA4NUxkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAO
@@ -16706,7 +16706,7 @@ AAAAAAAAwAQQuAMAAAAAAAAAMAEE7gAAAAAAAAAATACBOwAAAAAAAAAAE0DgDgAAAAAAAADABBC4
 AwAAAAAAAAAwAQTuAAAAAAAAAABMAIE7AAAAAAAAAAATQOAOAAAAAAAAAMAEELgDAAAAAAAAADAB
 BO4AAAAAAAAAAEwAgTsAAAAAAAAAABNA4A4AAAAAAAAAwAQQuAMAAAAAAAAAMAEE7gAAAAAAAAAA
 TACBOwAAAAAAAAAAE0DgDgAAAAAAAADABBC4AwAAAAAAAAAwAQTuAAAAAAAAAABMAIE7AAAAAAAA
-AAAT8P8H6LEqmNXDHWkAAAAASUVORK5CYII=" transform="matrix(0.2 0 0 0.2 181.335 5.01)">
+AAAT8P8H6LEqmNXDHWkAAAAASUVORK5CYII=" transform="matrix(0.2307 0 0 0.2307 152.3333 -7.7385)">
 	</image>
 </g>
 </svg>

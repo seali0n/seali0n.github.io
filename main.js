@@ -33,5 +33,10 @@ $(document).ready(function() {
         event.preventDefault();
         $(this).ekkoLightbox();
 	});
+    
+    //carousel adjustments
+    $('.carousel').carousel({
+        interval: false
+    });
 
 });

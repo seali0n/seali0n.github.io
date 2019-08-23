@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 572" style="enable-background:new 0 0 1440 572;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F46771;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{opacity:0.65;clip-path:url(#SVGID_4_);}
+	.st3{clip-path:url(#SVGID_6_);}
+	.st4{clip-path:url(#SVGID_8_);fill:url(#SVGID_9_);}
+	.st5{clip-path:url(#SVGID_11_);fill:#22A6D6;}
+	.st6{clip-path:url(#SVGID_11_);fill:none;stroke:#184961;stroke-width:2;}
+	.st7{fill:#2497C7;}
+	.st8{fill:#22A6D6;}
+	.st9{fill:#F4F5F5;}
+	.st10{fill:#929497;}
+	.st11{clip-path:url(#SVGID_13_);fill:none;stroke:#184860;stroke-width:3;stroke-miterlimit:2;}
+	.st12{fill:none;stroke:#184860;stroke-width:3;stroke-miterlimit:2;}
+	.st13{clip-path:url(#SVGID_15_);fill:none;stroke:#184860;stroke-width:3;stroke-miterlimit:2;}
+</style>
+<g id="Layer_1">
+	<rect class="st0" width="1440" height="572"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="467" y="272.4" width="689.28" height="256.6"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			<defs>
+				<rect id="SVGID_3_" x="467" y="272.4" width="689.28" height="256.6"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st2">
+				<g>
+					<defs>
+						<rect id="SVGID_5_" x="453.63" y="134.63" width="727.26" height="398.79"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st3">
+						<defs>
+							<path id="SVGID_7_" d="M467,329.57c0,0,347.1,39.14,684.6-57.17l4.69,16.34c0,0-428.34,191.26-635.11,240.25L467,329.57z"/>
+						</defs>
+						<clipPath id="SVGID_8_">
+							<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+						</clipPath>
+						
+							<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="1.6788" y1="572.939" x2="2.6788" y2="572.939" gradientTransform="matrix(651.4869 -186.8109 -186.8109 -651.4869 106446.2344 374063.375)">
+							<stop  offset="0" style="stop-color:#81C3DE"/>
+							<stop  offset="0.1183" style="stop-color:#75B4CF"/>
+							<stop  offset="0.9932" style="stop-color:#1E4A60"/>
+							<stop  offset="1" style="stop-color:#1E4A60"/>
+						</linearGradient>
+						<polygon class="st4" points="399.01,291.9 1103.91,89.77 1224.27,509.5 519.37,711.63 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_10_" x="1059" y="167.14" width="338" height="152.86"/>
+		</defs>
+		<clipPath id="SVGID_11_">
+			<use xlink:href="#SVGID_10_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st5" d="M1110.37,271.3c0,0-39.63-43.73-43.81-50.7c-4.19-6.97,23.61-7.81,23.61-7.81s54.65,35.06,70.03,34.05
+			l79.36-29.47l-14.39-28.82c0,0,21.54-7.84,26.59-3.82l22.31,19.56l73.15-29.55c0,0,22.71-10.04,37.89,5.47
+			c0,0,10.06,1.13,11.27,4.11c0,0,6.88,11.94-24.89,36.9l-70.19,30.09c0,0-3.52,49.04-7.03,53.92c0,0-23.3,10.28-23.9,8.79
+			c-0.6-1.49,0.9,2.23,0.9,2.23l-11.87-49.75l-70.2,28.36c0,0-20.97,4.14-44.95,0.84c0,0-2,10.33-7.28,17.66
+			c0,0-11.76,9.95-13.57,5.48l-1.05-24.68c0,0-25.43-0.11-28.14-6.81c0,0-2.09-3.48-1.24-8.16L1110.37,271.3z"/>
+		<path class="st6" d="M1104.71,268.36c0,0-39.63-43.73-43.81-50.7c-4.19-6.97,23.61-7.81,23.61-7.81s54.65,35.06,70.03,34.05
+			l79.36-29.47l-14.39-28.82c0,0,21.54-7.84,26.59-3.82l22.31,19.56l73.15-29.55c0,0,22.71-10.04,37.89,5.47
+			c0,0,10.06,1.13,11.27,4.11c0,0,6.88,11.94-24.89,36.9l-70.19,30.09c0,0-3.52,49.04-7.03,53.92c0,0-23.3,10.28-23.9,8.79
+			c-0.6-1.49,0.9,2.23,0.9,2.23l-11.87-49.75l-70.2,28.36c0,0-20.97,4.14-44.95,0.84c0,0-2,10.33-7.28,17.66
+			c0,0-11.76,9.95-13.57,5.48l-1.05-24.68c0,0-25.43-0.11-28.14-6.81c0,0-2.09-3.48-1.24-8.16L1104.71,268.36z"/>
+	</g>
+	<g>
+		<polygon class="st7" points="935.91,58 786.6,72.06 837.79,106.95 987.1,92.89 		"/>
+		<polygon class="st8" points="863.67,234.38 864.31,517.48 1013.62,503.42 1012.98,220.32 		"/>
+		<polygon class="st8" points="837.79,106.95 863.67,234.38 1012.98,220.32 987.1,92.89 		"/>
+		<polygon class="st7" points="837.79,106.95 863.67,234.38 864.31,517.48 787.56,465.01 786.6,72.06 		"/>
+		<polygon class="st9" points="873.22,135.93 969.21,126.89 980.83,186.34 884.84,195.38 		"/>
+		<polygon class="st10" points="884.84,195.38 980.83,186.34 979.33,187.38 883.35,196.42 		"/>
+		<polygon class="st10" points="873.22,135.93 884.84,195.38 883.35,196.42 871.73,136.97 		"/>
+		<g>
+			<defs>
+				<rect id="SVGID_12_" x="778" y="58" width="235.62" height="472"/>
+			</defs>
+			<clipPath id="SVGID_13_">
+				<use xlink:href="#SVGID_12_"  style="overflow:visible;"/>
+			</clipPath>
+			<polygon class="st11" points="779.84,82.55 929.15,68.5 980.34,103.39 831.03,117.45 			"/>
+			<polygon class="st11" points="856.91,244.88 1006.22,230.82 1006.86,513.92 857.55,527.98 			"/>
+		</g>
+		<polygon class="st12" points="831.03,117.45 980.34,103.39 1006.22,230.82 856.91,244.88 		"/>
+		<g>
+			<defs>
+				<rect id="SVGID_14_" x="778" y="58" width="235.62" height="472"/>
+			</defs>
+			<clipPath id="SVGID_15_">
+				<use xlink:href="#SVGID_14_"  style="overflow:visible;"/>
+			</clipPath>
+			<polygon class="st13" points="831.03,117.45 856.91,244.88 857.55,527.98 780.8,475.5 779.84,82.56 			"/>
+		</g>
+		<polygon class="st12" points="866.46,146.42 962.45,137.39 974.07,196.83 878.08,205.87 		"/>
+	</g>
+</g>
+<g id="Layer_3">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.5;" width="443" height="306" xlink:href="1D2E42D4.png"  transform="matrix(1 0 0 1 249 241)">
+		</image>
+		<g>
+			
+				<image style="overflow:visible;" width="1368" height="912" xlink:href="Payment Screen.png"  transform="matrix(0.3019 0 0 0.3019 257 249.4666)">
+			</image>
+		</g>
+	</g>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.5;" width="443" height="306" xlink:href="1D2E42DC.png"  transform="matrix(1 0 0 1 185 180)">
+		</image>
+		<g>
+			
+				<image style="overflow:visible;" width="1376" height="918" xlink:href="1D2E42DE.png"  transform="matrix(0.3001 0 0 0.3001 192.6667 187.8443)">
+			</image>
+		</g>
+	</g>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.5;" width="444" height="306" xlink:href="1D2E42D3.png"  transform="matrix(1 0 0 1 120 118)">
+		</image>
+		<g>
+			
+				<image style="overflow:visible;" width="1368" height="912" xlink:href="Categories Screen.png"  transform="matrix(0.3019 0 0 0.3019 128.3333 126.4222)">
+			</image>
+		</g>
+	</g>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.5;" width="443" height="306" xlink:href="1D2E42D7.png"  transform="matrix(1 0 0 1 56 57)">
+		</image>
+		<g>
+			
+				<image style="overflow:visible;" width="1368" height="912" xlink:href="Welcome Screen.png"  transform="matrix(0.3019 0 0 0.3019 64 65)">
+			</image>
+		</g>
+	</g>
+</g>
+</svg>
