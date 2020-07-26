@@ -24,6 +24,7 @@ ol, ul {
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -201,6 +202,7 @@ button.scroll:after{
 a.navbar-brand {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    padding: 1em;
 }
 
 .navbar {
@@ -225,6 +227,10 @@ a.navbar-brand {
 .overlay {
     margin-bottom: -8.75em; 
     z-index: 1;
+}
+
+li.nav-item {
+    padding: 1em;
 }
 
 ul li a {
@@ -265,7 +271,9 @@ footer {
 	}
 
 .icon {
-    margin: 0em .5vw;
+    margin: 0.1em .5vw;
+    color: rgba(255,255, 255,1);
+
 }
 
 .icon img{
@@ -391,6 +399,10 @@ p.project{
     padding: 50px;
 }
 
+.title-bg {
+    padding-top: 6.75em;
+}
+
 .title {
 	font-weight: bold;
 	letter-spacing: .05em;
@@ -413,7 +425,7 @@ p.project{
 .header {
     letter-spacing: .025em;
     font-weight: bold;
-    padding-top: 4em;
+    padding-top: 2.5em;
 }
 
 row p{
@@ -441,7 +453,7 @@ row p{
 }
 
 h5.blurb, div.blurb, p.blurb, img.blurb {
-	margin-top: 2.5em;
+	margin-top: 1.5em;
 }
 
 .fa {
