@@ -28,6 +28,7 @@ $(document).ready(function() {
 		return false;
 	});
 	
+    
 	//lightbox function
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();

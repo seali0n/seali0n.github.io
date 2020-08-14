@@ -30,6 +30,9 @@
 	</head>
 
 	<body>
+        <script>
+          document.body.className = 'fade';
+        </script>
 		<!--NAVBAR-->
 		<nav class="navbar navbar-expand-sm navbar-light transparent">
 			<a class="navbar-brand" href="index.html">Celine Wong</a>
@@ -153,6 +156,11 @@
 		  </div>	
         </footer>
 		<!--JQUERY-->
+        <script>
+          document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.className = '';
+          });
+        </script>
 		<script
 		src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

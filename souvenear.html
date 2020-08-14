@@ -31,6 +31,9 @@
 	</head>
 	
 	<body>
+        <script>
+          document.body.className = 'fade';
+        </script>
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-sm overlay navbar-light">
 			<a class="navbar-brand" href="index.html">
@@ -398,6 +401,11 @@
         </footer>
 
 		<!--JQUERY-->
+        <script>
+          document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.className = '';
+          });
+        </script>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 		crossorigin="anonymous"></script>
