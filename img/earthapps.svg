@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="624.21" height="325.82" viewBox="0 0 624.21 325.82"><defs><style>.a{fill:url(#a);}.b,.f{fill:none;}.b{stroke:#000;stroke-miterlimit:10;stroke-width:1.25px;}.c{fill:#75dbcd;}.d{fill:#b4cf12;}.e{fill:#008826;}.f{stroke:#045a01;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}.g{font-size:18px;font-family:DroidSans-Bold, Droid Sans;font-weight:700;letter-spacing:0.08em;}.h{letter-spacing:0.07em;}</style><linearGradient id="a" x1="22.26" y1="152.16" x2="622.26" y2="152.16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#29bdbf"/><stop offset="1" stop-color="#d0e28d"/></linearGradient></defs><title>Artboard 1</title><rect class="a" x="22.26" y="2.16" width="600" height="300"/><rect class="b" x="1.96" y="23.66" width="600" height="300"/><path class="c" d="M362.36,156.06a34.6,34.6,0,1,1-58.94-24.58,25.8,25.8,0,1,0,50,8.64,27.75,27.75,0,0,0-2.31-9.56A34.53,34.53,0,0,1,362.36,156.06Z"/><path class="d" d="M351.15,130.56a34.62,34.62,0,0,0-47.73.92c6.05-16.14,24-39.57,24-39.57S344.78,114.46,351.15,130.56Z"/><path class="e" d="M353.46,140.12a26,26,0,1,1-50-8.64,34.62,34.62,0,0,1,47.73-.92A27.75,27.75,0,0,1,353.46,140.12Z"/><line class="f" x1="328.04" y1="147.93" x2="315.27" y2="135.16"/><line class="f" x1="328.04" y1="147.93" x2="340.81" y2="135.16"/><line class="f" x1="328.04" y1="165.93" x2="313.27" y2="151.16"/><line class="f" x1="328.04" y1="165.93" x2="342.81" y2="151.16"/><line class="f" x1="327.96" y1="175.66" x2="327.96" y2="112.66"/><text class="g" transform="translate(270.08 214.34)">EA<tspan class="h" x="24.48" y="0">R</tspan><tspan x="36.99" y="0">TH APPS</tspan></text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 625 325" style="enable-background:new 0 0 625 325;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:#000000;stroke-width:1.25;stroke-miterlimit:10;}
+	.st2{fill:#75DBCD;}
+	.st3{fill:#B4CF12;}
+	.st4{fill:#008826;}
+	.st5{fill:none;stroke:#045A01;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;}
+	.st7{font-family:'DroidSans-Bold';}
+	.st8{font-size:18px;}
+	.st9{letter-spacing:1;}
+</style>
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.6498" y1="151.75" x2="622.6498" y2="151.75">
+			<stop  offset="0" style="stop-color:#29BDBF"/>
+			<stop  offset="1" style="stop-color:#D0E28D"/>
+		</linearGradient>
+		<rect x="22.6" y="1.8" class="st0" width="600" height="300"/>
+	</g>
+	<rect x="2.4" y="23.3" class="st1" width="600" height="300"/>
+	<g>
+		<g>
+			<path class="st2" d="M362.7,155.6c0,19.1-15.5,34.6-34.6,34.6c-19.1,0-34.6-15.5-34.6-34.6c0-9.6,3.9-18.3,10.3-24.6
+				c-1.2,3.3-2,6.2-2,8.6c0,14.4,11.6,26,26,26s26-11.6,26-26c0-2.6-0.9-5.9-2.3-9.6C358.4,136.5,362.7,145.6,362.7,155.6z"/>
+			<path class="st3" d="M351.5,130.1c-6.2-5.6-14.4-9.1-23.4-9.1c-9.5,0-18.1,3.8-24.3,10c6-16.1,24-39.6,24-39.6
+				S345.2,114,351.5,130.1z"/>
+			<path class="st4" d="M353.9,139.7c0,14.4-11.6,26-26,26s-26-11.6-26-26c0-2.4,0.7-5.4,2-8.6c6.3-6.2,14.8-10,24.3-10
+				c9,0,17.2,3.5,23.4,9.1C353,133.8,353.9,137.1,353.9,139.7z"/>
+			<g>
+				<line class="st5" x1="328.4" y1="147.5" x2="315.7" y2="134.8"/>
+				<line class="st5" x1="328.4" y1="147.5" x2="341.2" y2="134.8"/>
+			</g>
+			<g>
+				<line class="st5" x1="328.4" y1="165.5" x2="313.7" y2="150.8"/>
+				<line class="st5" x1="328.4" y1="165.5" x2="343.2" y2="150.8"/>
+			</g>
+			<line class="st5" x1="328.4" y1="175.3" x2="328.4" y2="112.3"/>
+		</g>
+		<rect x="267.7" y="200.3" class="st6" width="121" height="17"/>
+		<text transform="matrix(1 0 0 1 270.3868 213.9297)" class="st7 st8 st9">Earth Apps</text>
+	</g>
+</g>
+</svg>
