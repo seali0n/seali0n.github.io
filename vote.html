@@ -17,21 +17,24 @@
 		<!-- Meta -->
 		<meta name="author" content="Celine Wong">
 		<meta name="description" content="Celine Wong -- UX Designer, SASE Publicity, UCSD undergraduate">
-		<link rel="icon" href="img/me.png">
+		<link rel="icon" href="img/logo.svg">
 		<title>Vote App</title>
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway: 400,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway: 400,600,700" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href="styles.css" rel="stylesheet" type="text/css">
 		
-        <link rel="icon" href="img/sun.png" type="image/png" sizes="32x32">
+        <link rel="icon" href="img/cat.png" type="image/png" sizes="32x32">
 	</head>
 	
 	<body>
+        <script>
+          document.body.className = 'fade';
+        </script>
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-sm overlay navbar-light">
 			<a class="navbar-brand" href="index.html">
@@ -54,133 +57,140 @@
 				</ul>
 			</div>
 		</nav>
-		<!--Title-->
-		<div class="title-bg focus text-center test" id="top">
-            <img class="img-fluid" src="img/vote_banner.png">
-		</div>
+        
 		<!--Case Study-->
 		<div class="container-fluid">
+		<!--Title and Banner-->
+            <div class="title-bg focus text-center test row justify-content-center" id="top">
+                <div class="col-11">
+                    <img class="img-fluid" src="img/vote/vote_banner.png">
+                </div>
+            </div>
+        
 			<!--Defining Problem and Solution-->
-			<div class="row justify-content-center">
-				<div class="col-10 col-sm-5 col-md-4 col-lg-3 blurb">
-					<h2 class="title">VOTE APP:<br>CAMPAIGN</h2>
-                    <p class="subtitle">SOCIAL DESIGN | VISUAL DESIGN</p>
+			<div class="row justify-content-center blurb">
+				<div class="col-10 col-sm-5 blurb">
+					<h2 class="title">VOTE! APP:<br>CAMPAIGN</h2>
+                    <p class="subtitle">SOCIAL DESIGN | UX DESIGN</p>
 				</div>
-                <div class="col-10 col-sm-5 col-md-4 col-lg-3 blurb">
+                <div class="col-10 col-sm-5 col-md-3 blurb">
                     <p><b>TOOLS</b><br>Figma, InVision <br>
-                    <b>MY ROLE</b><br>Visual Designer with branding, wireframing, prototyping<br>
+                    <b>MY ROLE</b><br>UX Designer<br>
                     <b>TEAM</b><br> Amberly, Marné, Sammy <br>
-                    <b>TIME</b><br> 2 weeks</p>
+                    <b>TIME</b><br> 2 weeks, 1 week</p>
                 </div>
 			</div>
 			
 			<!--Cause-->
 			<div class="row justify-content-center">
-				<div class="col-10 col-md-8 col-lg-6 blurb">
-					<h5 class="header">CAUSE</h5>
-					<p>Students at UC San Diego have many great characteristics but they lack political engagement. UC San Diego is known for its lack of engagement in political elections, whether school-wide or national. Among many of non-voting demographics, many students are interested in engaging but are often lost on the process due to the overwhelming amount of information.  We chose to focus on helping them be more knowledgeable on the voting process so that they can feel confident to vote. 
+				<div class="col-10 col-md-4">
+					<h3 class="header">PROBLEM</h3>
+					<p>UC San Diego student life has many great characteristics but one area for imporovement is political engagement. For better or worse, it is well known amongst campus culture that UC San Diego has a noticeable lack of engagement in political elections, school-wide or national. In the non-voting demographics, there are many students who are interested in engaging but are often lost in the process due to the overwhelming amount of information.
 					</p>
 				</div>
-			</div>
-            
+
             <!--How to help-->
-			<div class="row  justify-content-center">
-				<div class="col-10 col-md-8 col-lg-6 blurb">
-					<h5 class="header">HOW WE HELP</h5>
-					<p> We created an app, Vote, for our social campaign to provide an accessible resource for relevant election information . We hoped to better educate and inform students on campus so they could  be more active in civic affairs. 
+				<div class="col-10 col-md-4">
+					<h3 class="header">SOLUTION</h3>
+					<p>  We chose to focus on helping inexperienced voters be more knowledgeable on the voting process so that they can feel confident in the voting process. We created an app, Vote!, to provide an accessible resource for relevant election information . The goal of the app is to better educate and empower students on campus so they could be more active in civic affairs. 
 					</p>
 				</div>
 			</div>
 			
 			<!--Data-->
 			<div class="row justify-content-center">
-				<div class="col-10 col-md-8 col-lg-6 blurb">
-					<h5 class="header">RESEARCH AND KEY INSIGHTS</h5>
-					<p class="">
-                        For our research, we did some field study supplemented with statistical data. Marne worked as a poll worker for the past elections and was able to observe the voting experience through the student’s perspective. From her experience, there were a few key insights
-					</p>
-					<div class="row">
-                        <div class="col-12 col-md-4">
-                            <p class="">
-                               1. Many students were often flustered and unprepared when approaching polls because they were not sure what requirements there were for voting.
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <p class="">
-                                2. Students do not fully understand the different voting types which leads to invalid voting.
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <p class="">
-                                3. Students ineligible to vote do not feel like there is a point in being involved, contributing to general apathy.
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-10 col-md-8">
+                    <h3 class="header">RESEARCH AND KEY INSIGHTS</h3>
                 </div>
 			</div>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-4 blurb">
+                    <p class="">
+                        For our research, we conducted field studies, supplemented with statistical data. Marné worked as a poll worker for the past elections and was able to observe the voting experience through the student’s perspective. From her experiences and our research, there were a few key insights on student civic engagement:
+                    </p>
+                </div>
+                <div class="col-10 col-md-4 blurb">
+                    <ol>
+                    <li class="">
+                        Many students were often flustered and unprepared when approaching polls because they were not sure what requirements there were for voting.
+                    </li>
+                    <li class="">
+                        Students do not fully understand the different voting types which leads to invalid voting.
+                    </li>
+
+                    <li class="">
+                        Students ineligible to vote do not feel like there is a point in being involved, contributing to general apathy.
+                    </li>
+                    </ol>
+                </div>
+            </div>
 								
             <!--Our idea-->
             <div class="row justify-content-center">
-                <div class="col-10 col-md-8 col-lg-6 blurb">
-                    <h5 class="header">OUR IDEA</h5>
+                <div class="col-10 col-md-8 blurb">
+                    <h3 class="header">EXPLORING IDEAS</h3>
                     <p>
-                        Based on what students experienced, we wanted to tackle their issues with something relevant and accessible. We were at first interested in social media as that is the most reliable platform most people have access to. We had ideas like a political Tinder app where people would swipe to learn more about each other’s political views and sides or a current news Instagram account with relevant content. Ultimately, we decided to have a voting guide app catered towards UC San Diego students because we felt it would be the best way to inform and engage the student population.<br><br>
-                        Since people today go to technology to find their solutions, we thought it would be fitting to have relevant voter information at the tap of their phones. 
+                        Based on what students experienced, we wanted to tackle their issues with something relevant and accessible. We were at first interested in social media as that is the most reliable platform most people have access to. We had ideas like a political Tinder app where people would swipe to learn more about each other’s political views and sides or a current news Instagram account with relevant content. <br><br>
+                        Ultimately, we decided to have a voting guide app catered towards UC San Diego students because we felt it would be the best way to inform and engage the student population. Since people today go to technology to find their solutions, we thought it would be fitting to have relevant voter information at the tap of their phones. 
                     </p>
                 </div>
             </div>
             
             <!--Sketches-->
-            <div class="row justify-content-center">
-                <div class="col-10 col-md-8 col-lg-6 blurb">
-                    <h5 class="header">SKETCHES</h5>
+            <div class="row ">
+                <div class="col-10 offset-1 col-md-5  offset-md-2 blurb">
+                    <h3 class="header">SKETCHES</h3>
                     <p>Amberly and I created some sketches on different possible interfaces of the app. Some of the focuses were on navigating while others were on content. In the end, we combined our ideas to create a more simple layout as to not overwhelm users.</p>
-                    <a href="img/vote_app_sketch1.jpg" data-toggle="lightbox" data-gallery="persona" class="col-6">
-                        <img src="img/vote_app_sketch1.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8  ">
+                    <a href="img/vote/vote_app_sketch1.jpg" data-toggle="lightbox" data-gallery="sketch" class=" ">
+                        <img src="img/vote/vote_app_sketch1.jpg" class="img-fluid">
                     </a>
-                    <a href="img/vote_app_sketch2.jpg" data-toggle="lightbox" data-gallery="persona" class="col-6">
-                        <img src="img/vote_app_sketch2.jpg" class="img-fluid">
+                    <a href="img/vote/vote_app_sketch2.jpg" data-toggle="lightbox" data-gallery="sketch" class=" ">
+                        <img src="img/vote/vote_app_sketch2.jpg" class="img-fluid">
                     </a>
                 </div>
             </div>
             
             <!--Final Designs-->
             <div class="row justify-content-center">
-                <div class="col-10 col-md-8 col-lg-6 blurb">
-                    <h5 class="header">FINAL DESIGNS</h5>
+                <div class="col-10 col-md-8 blurb">
+                    <h3 class="header">FIRST ITERATION</h3>
                     <div class="row mb-3 blurb">
-						<a href="img/vote_home.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_home.png" alt="Vote Home Screen" class="img-fluid">
+						<a href="img/vote/vote_home.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_home.png" alt="Vote Home Screen" class="img-fluid">
 						</a>
-						<a href="img/vote_gs.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_gs.png" alt="Getting Started Screen" class="img-fluid">
+						<a href="img/vote/vote_gs.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_gs.png" alt="Getting Started Screen" class="img-fluid">
 						</a>						
-						<a href="img/vote_gs4.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_gs4.png" alt="Getting Started End Screen" class="img-fluid">
+						<a href="img/vote/vote_gs4.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_gs4.png" alt="Getting Started End Screen" class="img-fluid">
 						</a>
 					</div>
                     
                     <div class="row mb-3 blurb">
-						<a href="img/vote_vg.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_vg.png" alt="Voting Guide Location Screen" class="img-fluid">
+						<a href="img/vote/vote_vg.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_vg.png" alt="Voting Guide Location Screen" class="img-fluid">
 						</a>
-						<a href="img/vote_vg2.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_vg2.png" alt="Voting Guide Candidates Screen" class="img-fluid">
+						<a href="img/vote/vote_vg2.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_vg2.png" alt="Voting Guide Candidates Screen" class="img-fluid">
 						</a>						
-						<a href="img/vote_vg3.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_vg3.png" alt="Voting Guide Props Screen" class="img-fluid">
+						<a href="img/vote/vote_vg3.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_vg3.png" alt="Voting Guide Propositions Screen" class="img-fluid">
 						</a>
 					</div>
                     
                     <div class="row mb-3 blurb">
-						<a href="img/vote_vd.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_vd.png" alt="Voting Day On Campus Screen" class="img-fluid">
+						<a href="img/vote/vote_vd.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_vd.png" alt="Voting Day On Campus Screen" class="img-fluid">
 						</a>
-						<a href="img/vote_vd2.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_vd2.png" alt="Voting Day Off Campus Polling Screen" class="img-fluid">
+						<a href="img/vote/vote_vd2.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_vd2.png" alt="Voting Day Off Campus Polling Screen" class="img-fluid">
 						</a>						
-						<a href="img/vote_faq.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
-							<img src="img/vote_faq.png" alt="FAQ Screen" class="img-fluid">
+						<a href="img/vote/vote_faq.png" data-toggle="lightbox" data-gallery="wireframe" class="col-4">
+							<img src="img/vote/vote_faq.png" alt="FAQ Screen" class="img-fluid">
 						</a>
 					</div>
                     
@@ -189,33 +199,66 @@
             
             <!--Context-->
             <div class="row justify-content-center">
-                <div class="col-10 col-md-6 blurb ">
-                    <h5 class="header">USED IN CONTEXT</h5>
-                    <p>The app is to be used before and during an actual election season, which would be the most appropriate time for UC San Diego students to be informed on how to be best prepare. By providing an accessible source of education on the entire process, the app helps to foster confidence. The app works to break down the voting process--from registering to vote, understanding the ballot, and to knowing how to vote on election day--into manageable steps. The app purposefully separates the voting process into different components to create a simpler and more easily digestible resource for beginners.</p>
+                <div class="col-10 col-md-8 blurb ">
+                    <h3 class="header">USED IN CONTEXT</h3>
+                    <p>The app is to be used before and during an actual election season, which would be the most appropriate time for UC San Diego students to be informed on how to be best prepare. By providing an accessible source of education on the entire process, the app helps to foster confidence. The app works to break down the voting process--from registering to vote, understanding the ballot, and to knowing how to vote on election day--into manageable steps. The app purposefully separates the voting process into different components to create a simpler and more easily digestible resource for inexperienced voters.</p>
                 </div>
             </div>
-            <!--Conclusion-->
-<!--        <div class="row">
-                <div class="col-12 col-md-6 offset-md-3 blurb">
-                    <h6 class="header">LOOKING BACK</h6>
-                    <p>Our users gave positive feedback, showing interest in the design and citing how useful the feature would be for their productivity. Though we gained a lot of good input, there were some limitations that affected our designs. Because of constraints, we were only able to test people within the UC San Diego campus who fall under the WEIRD category of demographics. We also did not test over a long period of time so we do not know about long-term effectiveness.<br><br>
-                    If we were to revisit this project, we would like to test people of different demographics in a longitudinal study to see how our design has any positive effects on people over time.</p>
+            
+            <!--Reiterating-->
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-8 blurb ">
+                    <h3 class="header">REITERATING</h3>
+                    <p>I wanted to reimagine how our app works in the context of our most recent 2020 election. This election was unique for its pandemic setting, which led to changes for the voting process such as sending  mail-in ballots for all registered voters in San Diego county. This information can be overwhelming to keep track of along with the usual voting process for many inexperienced users. So I updated our Vote! app to address new concerns.</p>
                 </div>
-            </div>   -->                         
+                <div class="col-10  blurb">
+                    <a href="img/vote/new_home.png" data-toggle="lightbox" data-gallery="reiteration" class="col-4">
+                        <img src="img/vote/new_home.png" alt="Old to New Home Screen" class="img-fluid">
+                    </a>
+                    <a href="img/vote/new_dos_donts.png" data-toggle="lightbox" data-gallery="reiteration" class="col-4">
+                        <img src="img/vote/new_dos_donts.png" alt="Old to New Do's and Don'ts Screen" class="img-fluid">
+                    </a>						
+                    <a href="img/vote/new_faq.png" data-toggle="lightbox" data-gallery="reiteration" class="col-4">
+                        <img src="img/vote/new_faq.png" alt="Old to New FAQ Screen" class="img-fluid">
+                    </a>
+                    <a href="img/vote/new_candidates_screen.png" data-toggle="lightbox" data-gallery="reiteration" class="col-4">
+                        <img src="img/vote/new_candidates_screen.png" alt="Old to New Candidates Screen" class="img-fluid">
+                    </a>
+                    <a href="img/vote/new_props_and_measures.png" data-toggle="lightbox" data-gallery="reiteration" class="col-4">
+                        <img src="img/vote/new_props_and_measures.png" alt="Old to New Propositions and Measures Screen" class="img-fluid">
+                    </a>
+                    <a href="img/vote/new_covid_screens.png" data-toggle="lightbox" data-gallery="reiteration" class="col-4">
+                        <img src="img/vote/new_covid_screens.png" alt="Old to New Covid-19 Voting Information Screen" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            
+            
+            <!--Conclusion-->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 blurb">
+                    <h3 class="header">CONCLUSION</h3>
+                    <p>This has been an exciting project for me to work on as I was able to design on a civil service project for the first time. That being said, I think it's important to address our limits. Although technology has always been a tool to aid various endeavors, it should not be the end-all solution. While an informational  app may be helpful to many young voters, it will not solve low young voter turnout. Additional factors of low turnout include voter suppression, chaotic voting processes, voting apathy, and many more. As we continue to address said issues, we can also supplement solutions with technology like our Vote! app. </p>
+                    
+                    <br>
+                    <h6><i>Credits</i></h6>
+                    <p>Special thank you to <a href="https://ballotpedia.org/">Ballotpedia</a> and <a href="https://votersedge.org/">VotersEdge</a> as sources of information for our content.</p>
+                </div>
+            </div>                            
 			
 			<!--<hr class="space text-center">-->
 
 			
-			<div class="row justify-content-center">
-				<div class="col-10 col-md-6 blurb text-center">
+			<div class="row justify-content-center blurb">
+				<div class="col-10 col-md-6  text-center">
 					<h5>Thanks for reading and remember to vote if you can! 🗳️</h5>
 				</div>
 			</div>
             
 			<!--Index-->
 
-						<div class="row justify-content-center blurb">
-                <div class="col-10 col-md-8 col-lg-6">
+            <div class="row justify-content-center blurb">
+                <div class="col-10 col-md-8">
                     <h6 class="header">INDEX</h6>
                     <div class="row justify-content-center">
 				        <div class="col-12 col-sm-4  mb-4">
@@ -270,6 +313,12 @@
         </footer>
 
 		<!--JQUERY-->
+        <script>
+          document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.className = '';
+          });
+        </script>
+        
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 		crossorigin="anonymous"></script>

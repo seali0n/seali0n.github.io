@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 625 325" style="enable-background:new 0 0 625 325;" xml:space="preserve">
+	 viewBox="0 0 623.6 322.3" style="enable-background:new 0 0 623.6 322.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:none;stroke:#000000;stroke-width:1.25;stroke-miterlimit:10;}
@@ -15,34 +15,32 @@
 	.st9{letter-spacing:1;}
 </style>
 <g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="21.577" y1="150.1336" x2="621.577" y2="150.1336">
+		<stop  offset="0" style="stop-color:#29BDBF"/>
+		<stop  offset="1" style="stop-color:#D0E28D"/>
+	</linearGradient>
+	<rect x="21.6" y="0.1" class="st0" width="600" height="300"/>
+</g>
+<rect x="1.3" y="21.6" class="st1" width="600" height="300"/>
+<g>
 	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.6498" y1="151.75" x2="622.6498" y2="151.75">
-			<stop  offset="0" style="stop-color:#29BDBF"/>
-			<stop  offset="1" style="stop-color:#D0E28D"/>
-		</linearGradient>
-		<rect x="22.6" y="1.8" class="st0" width="600" height="300"/>
-	</g>
-	<rect x="2.4" y="23.3" class="st1" width="600" height="300"/>
-	<g>
+		<path class="st2" d="M361.7,154c0,19.1-15.5,34.6-34.6,34.6c-19.1,0-34.6-15.5-34.6-34.6c0-9.6,3.9-18.3,10.3-24.6
+			c-1.2,3.3-2,6.2-2,8.6c0,14.4,11.6,26,26,26s26-11.6,26-26c0-2.6-0.9-5.9-2.3-9.6C357.4,134.9,361.7,143.9,361.7,154z"/>
+		<path class="st3" d="M350.5,128.5c-6.2-5.6-14.4-9.1-23.4-9.1c-9.5,0-18.1,3.8-24.3,10c6-16.1,24-39.6,24-39.6
+			S344.1,112.4,350.5,128.5z"/>
+		<path class="st4" d="M352.8,138.1c0,14.4-11.6,26-26,26s-26-11.6-26-26c0-2.4,0.7-5.4,2-8.6c6.3-6.2,14.8-10,24.3-10
+			c9,0,17.2,3.5,23.4,9.1C351.9,132.2,352.8,135.5,352.8,138.1z"/>
 		<g>
-			<path class="st2" d="M362.7,155.6c0,19.1-15.5,34.6-34.6,34.6c-19.1,0-34.6-15.5-34.6-34.6c0-9.6,3.9-18.3,10.3-24.6
-				c-1.2,3.3-2,6.2-2,8.6c0,14.4,11.6,26,26,26s26-11.6,26-26c0-2.6-0.9-5.9-2.3-9.6C358.4,136.5,362.7,145.6,362.7,155.6z"/>
-			<path class="st3" d="M351.5,130.1c-6.2-5.6-14.4-9.1-23.4-9.1c-9.5,0-18.1,3.8-24.3,10c6-16.1,24-39.6,24-39.6
-				S345.2,114,351.5,130.1z"/>
-			<path class="st4" d="M353.9,139.7c0,14.4-11.6,26-26,26s-26-11.6-26-26c0-2.4,0.7-5.4,2-8.6c6.3-6.2,14.8-10,24.3-10
-				c9,0,17.2,3.5,23.4,9.1C353,133.8,353.9,137.1,353.9,139.7z"/>
-			<g>
-				<line class="st5" x1="328.4" y1="147.5" x2="315.7" y2="134.8"/>
-				<line class="st5" x1="328.4" y1="147.5" x2="341.2" y2="134.8"/>
-			</g>
-			<g>
-				<line class="st5" x1="328.4" y1="165.5" x2="313.7" y2="150.8"/>
-				<line class="st5" x1="328.4" y1="165.5" x2="343.2" y2="150.8"/>
-			</g>
-			<line class="st5" x1="328.4" y1="175.3" x2="328.4" y2="112.3"/>
+			<line class="st5" x1="327.4" y1="145.9" x2="314.6" y2="133.1"/>
+			<line class="st5" x1="327.4" y1="145.9" x2="340.1" y2="133.1"/>
 		</g>
-		<rect x="267.7" y="200.3" class="st6" width="121" height="17"/>
-		<text transform="matrix(1 0 0 1 270.3868 213.9297)" class="st7 st8 st9">Earth Apps</text>
+		<g>
+			<line class="st5" x1="327.4" y1="163.9" x2="312.6" y2="149.1"/>
+			<line class="st5" x1="327.4" y1="163.9" x2="342.1" y2="149.1"/>
+		</g>
+		<line class="st5" x1="327.3" y1="173.6" x2="327.3" y2="110.6"/>
 	</g>
+	<rect x="266.6" y="198.6" class="st6" width="121" height="17"/>
+	<text transform="matrix(1 0 0 1 269.314 212.3132)" class="st7 st8 st9">Earth Apps</text>
 </g>
 </svg>
