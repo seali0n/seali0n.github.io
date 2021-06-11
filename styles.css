@@ -353,6 +353,11 @@ footer {
     color: rgba(20, 54, 66, 1);
 }
 
+h5.project{
+    padding-top: 1vw;
+    margin-bottom: 0em;
+}
+
 p.project{
     text-transform: uppercase;
     font-size: .7em;
