@@ -21,7 +21,8 @@
 		<title>SASE Website Redesign</title>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway: 400,600,700" rel="stylesheet">
@@ -85,7 +86,7 @@
                 </div>
 				<div class="col-10 col-md-4">
 					<h3 class="header">SOLUTION</h3>
-					<p>Over three months, I worked with two teammates to redesign the SASE website, focusing on cohesive branding and relevant content for potential users.</p>
+					<p>Over three months, I worked with two teammates to redesign the SASE website, focusing on cohesive branding and relevant content for potential users. <br><a href="https://www.figma.com/file/NaZup3kesrdnpOv4ZT0bHX/SASE-Mobile-Prototype?node-id=0%3A1" target="_blank">You can view the final design here ↗</a> </p>
 				</div>
                 <!--Solution Pics -->
                     <div class="col-10 col-md-8 blurb">
@@ -123,7 +124,7 @@
 				<div class="col-10 col-md-8 blurb">
 					<h3 class="header">RESEARCH AND DATA</h3>
 					<p class="">
-                        We wanted to get more information of the organization from members and non-members so that we can create a site authentic to SASE’s values. Part of our research included having users perform various tasks on the mobile site.</p>
+                        We wanted to get more information of the organization from members and non-members so that we can create a site authentic to SASE’s values. Part of our research included having users perform various tasks on the mobile site. <a href="https://drive.google.com/file/d/1xqVdc15yKrtXNUuJYgrPgMx6-WcG4A4j/view?usp=sharing" target="_blank">Here is the full research brief ↗</a></p>
                     <p>
                         Our interviews involved asking participants about their experiences in SASE and then having them complete user tasks on the current SASE website. The interview questions ranged from their reasons for  involvement in SASE to what they hoped to get out of/give to SASE. Based on our research, we found:
 
@@ -155,7 +156,7 @@
                     </div>
                 </div>
 			</div>
-								
+            
             <!--Problem Focus-->
             <div class="row justify-content-center blurb">
                 <div class="col-10 col-md-8 blurb">
@@ -172,38 +173,77 @@
                 <div class="col-10 col-md-8 blurb">
                     <h3 class="header">PERSONAS</h3>
                     <p>From our interviews, we created a few personas to highlight the main goals of our interviewees. Based on our research, we decided the main user to focus on would be the general and potential members. Though alumni, and company representatives to a lesser extent, do go on the website occasionally, they do not have much need to do so and find information through different methods such as talking to current board members.</p>
-                    <div class="row blurb">
-                        <div class="col-12 col-lg-4 mx-auto">
-                            <img src="img/sase/student.svg" class="img-fluid col-10 mx-auto ">
-                            <p class="text-center"><b>Struggling Student Sky</b></p>
-                            <p>As a third year transfer, Sky does not feel career-ready and wants to find an organization to gain <b>professional development</b>. He also hopes to find friends as it has been hard to connect to people.</p>
-                        </div>
-                        <div class="col-12 col-lg-4 mx-auto">
-                            <img src="img/sase/alumni.svg" class="img-fluid col-10 mx-auto ">
-                            <p class="text-center"><b>Active Alumni Connor</b></p>
-                            <p>Connor was an active SASE member in his undergrad but, after graduating, finds it <b>hard to be involved</b> due to work. Still, he tries to find the time to go to events and <b>makes an effort</b> to help the org.</p>
-                        </div>
-                        <div class="col-12 col-lg-4 mx-auto">
-                            <img src="img/sase/comrep.svg" class="img-fluid col-10 mx-auto ">
-                            <p class="text-center"><b>Company Representative Elena</b></p>
-                            <p>Elena wants to find people with lots of potential for her company. Being a UCSD graduate, she knows the school has reputable students who need jobs. She wants to <b>help her community</b> as much as she can.</p>
-                        </div>
+
+                </div>
+
+                
+                <div id="carouselPersona" class="carousel carousel-dark slide col-10 col-md-6 blurb" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPersona" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPersona" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPersona" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="img/sase/Potential%20Member.png" class="d-block w-100" alt="Potential Student Member Persona">
+                      
                     </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="img/sase/Alumni.png" class="d-block w-100" alt="ALumni Persona">
+
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/sase/Company%20Rep.png" class="d-block w-100" alt="Company Representative Persona">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPersona" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselPersona" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
             </div>
             
-            <!--Wireframing-->
+           <!-- Competitive Analysis
             <div class="row justify-content-center blurb">
                 <div class="col-10 col-md-8 blurb">
-                    <h3 class="header">WIREFRAMING</h3>
-                    <p> We made a few paper prototypes of screens that we planned to have. From the initial wireframing, we moved onwards to digital prototyping.</p>
+                    <h3 class="header">COMPETITIVE ANALYSIS</h3>
+                    <p>To understand what works and what is successful, we conducted competitive analysis of other similar sites to gain insight and inspiration on how we could improve the SASE website. Based on our analyses, a lot of areas of improvement was in creating a mobile-friendly user-first browsing experience. Interfaces should be about functionality not just for pure visuals.  
+                    </p>
                 </div>
-                    
+                
                 <div class="col-10">
                     <a href="img/sase/paper_proto_wireframe.png" data-toggle="lightbox" class="col-12">
                       <img src="img/sase/paper_proto_wireframe.png" class="img-fluid">
                     </a>
                 </div>
+            </div>-->
+								
+            <!--Wireframing-->
+            <div class="row justify-content-center blurb">
+                <div class="col-10 col-md-8 blurb">
+                    <h3 class="header">WIREFRAMING</h3>
+                    <p> We had a site architecture based off of how our users expected the user journey to be and off of how the client and we envisioned the site map to be. From there, we made a few paper prototypes of screens that we planned to have. From the initial wireframing, we moved onwards to digital prototyping. </p>
+                </div>
+                    
+                <div class="col-10">
+                    <a href="img/sase/paper_proto_wireframe.png" data-toggle="lightbox" class="col-12">
+                      <img src="img/sase/SASE_site_arch.png" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-10">
+                    <a href="img/sase/paper_proto_wireframe.png" data-toggle="lightbox" class="col-12">
+                      <img src="img/sase/paper_proto_wireframe.png" class="img-fluid">
+                    </a>
+                </div>
+                
             </div>
             
             <!--Branding-->
@@ -366,6 +406,8 @@
             document.body.className = '';
           });
         </script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 		crossorigin="anonymous"></script>
