@@ -20,8 +20,8 @@ ol, ul {
 
 
  ul li {
-    padding-left: 1em;
-    padding-bottom: 1em;
+    padding-left: .5em;
+    padding-bottom: .5em;
     
 }
 
@@ -443,6 +443,12 @@ p.project{
 	color: #000;
 	font-size: .90rem;
 	font-style: italic;
+}
+
+h4.statement {
+    font-size: 1.25em;
+    line-height: 1.65em;
+    color: rgba(255, 196, 45, 1);
 }
 
 .header {
