@@ -488,3 +488,19 @@ h5.blurb, div.blurb, p.blurb, img.blurb {
 .fa {
 	margin: .25rem .75rem;
 }
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  /* 1:1 aspect ratio */
+  padding-top: 100%;
+}
+
+.iframe-container iframe {
+   position: absolute;
+   border: 0;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
